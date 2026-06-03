@@ -42,7 +42,7 @@ Because XOR with the same keystream is its own inverse, encryption and decryptio
 
 ## Security Notice
 
-This tool is not cryptographically secure. It uses the C standard library `rand()`, which is not a cryptographic PRNG and produces platform-dependent output. The same key may not decrypt correctly across different operating systems or compilers. This project is intended as a demonstration, not for protecting sensitive data.
+This tool is not cryptographically secure. It uses the C standard library `rand()`, which is not a cryptographic PRNG and produces platform-dependent output. The same key may not decrypt correctly across different operating systems or compilers. This project is intended as a demonstration, not for protecting sensitive data. Fixes maybe implemented in the future.
 
 ---
 
